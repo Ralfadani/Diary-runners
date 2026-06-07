@@ -1,0 +1,36 @@
+name: runners_hub
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+# --- BAGIAN DEPENDENCIES (DIPERBAIKI) ---
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icon Apple style
+  cupertino_icons: ^1.0.2
+  
+  # Package Kalender (Tambahan Anda)
+  table_calendar: ^3.0.9
+  
+  # Package Format Tanggal (Tambahan Anda)
+  intl: ^0.19.0
+  shared_preferences: ^2.5.4
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# --- BAGIAN PENGATURAN FLUTTER ---
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/images/
